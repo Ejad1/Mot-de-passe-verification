@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mot de passe sécuritaire</title>
+
+    <!-- Icône -->
+    <link rel="shortcut icon" href="Logo_de_mes_pages.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="en-tete">
+                <h3>
+                    Soyez la bienvenue sur notre page. Cette page vous permet de créer un mot de passe robuste ou de vérifier si le vôtre l'est.
+                </h3>
+            </div>
+
+            <div class="corps">
+                <input type="password" name="mdp" id="mdp" placeholder="Veuillez entrer le mot de passe">
+            </div>
+
+            <div class="erreurs">
+                <ul>
+                    <li class="majuscule">
+                        <span><img src="x-lg.svg">1- Contient une lettre majuscule</span>
+                    </li>
+                    <li class="minuscule">
+                        <span><img src="x-lg.svg">2- Contient une lettre minuscule</span>
+                    </li>
+                    <li class="chiffre">
+                        <span><img src="x-lg.svg">3- Contient au moins un chiffre</span>
+                    </li>
+                    <li class="special">
+                        <span><img src="x-lg.svg">4- Contient au moins un caractère spécial</span>
+                    </li>
+                    <li class="longueur">
+                        <span><img src="x-lg.svg">5- Huit (8) caractères au minimum</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

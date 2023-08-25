@@ -1,0 +1,56 @@
+body {
+    background-color: azure;
+    font-family: Arial, sans-serif;
+    margin: 0; /* Supprimer la marge par défaut du corps */
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h3 {
+    margin-top: 0;
+}
+
+ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.erreurs {
+    display: flex; /* Utiliser flex pour aligner les conditions */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    flex-wrap: wrap; /* Permettre le retour à la ligne des conditions */
+    padding-top: 10px;
+}
+
+.erreurs li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.erreurs li span {
+    margin-left: 5px;
+}
+
+.invalide {
+    color: red;
+}
+
+.valide {
+    color: green;
+}
